@@ -201,7 +201,6 @@ const SEVENGRADE = [
 'alice',
 'truman',
 'anderson',
-'jack',
 'ava',
 'haiden',
 'mack',
