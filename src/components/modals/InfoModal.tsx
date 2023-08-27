@@ -58,14 +58,8 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
-        Studentle was forked from Reactle an open source version of the word
-        guessing game we all know and love -{' '}
-        <a
-          href="https://github.com/Igetsisss/STUDENTLEV3"
-          className="font-bold underline"
-        >
-          check out the code here
-        </a>{' '}
+        Studentle V4 was forked from Studentle V3 an open source version of the student
+        guessing game we all know and love Origionally created by Jack -{' '}
       </p>
     </BaseModal>
   )
