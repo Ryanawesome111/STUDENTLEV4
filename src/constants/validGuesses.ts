@@ -6,7 +6,7 @@ import {
 
 const gradeStatKey = 'gradeNumber'
 const grade = localStorage.getItem(gradeStatKey)
-const nogradeyet = ['jack']
+const nogradeyet = ['Ryan']
 
 var GRADEWORDS = nogradeyet
 const EIGHTGRADE = [
