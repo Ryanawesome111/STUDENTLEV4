@@ -48,18 +48,20 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
+        <Cell value="G" isCompleted={true} />
+        <Cell value="E" isCompleted={true} />
+        <Cell isRevealing={true} isCompleted={true} value="O" status="absent" />
         <Cell value="R" isCompleted={true} />
-        <Cell value="Y" isCompleted={true} />
-        <Cell isRevealing={true} isCompleted={true} value="A" status="absent" />
-        <Cell value="N" isCompleted={true} />
+        <Cell value="G" isCompleted={true} />
+        <Cell value="E" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter A is not in the Student's name in any spot.
+        The letter O is not in the Student's name in any spot.
       </p>
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
         Studentle V4 was forked from Studentle V3 an open source version of the student
-        guessing game we all know and love Origionally created by Jack
+        guessing game we all know and love Originally created by Jack, George, and Colt
       </p>
     </BaseModal>
   )
