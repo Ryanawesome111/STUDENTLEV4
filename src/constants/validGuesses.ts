@@ -106,7 +106,7 @@ const EIGHTGRADE = [
 ]
 
 const SEVENGRADE = [
-  'Sophie',
+'Sophie',
 'Ben',
 'Graham',
 'Aaron',
