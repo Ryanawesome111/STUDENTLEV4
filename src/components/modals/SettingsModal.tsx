@@ -77,7 +77,7 @@ export const SettingsModal = ({
           }
         />
         <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
-          ver 3.0
+          ver 4.0
         </p>
       </div>
     </BaseModal>
