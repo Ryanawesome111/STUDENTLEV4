@@ -6,7 +6,7 @@ import {
 
 const gradeStatKey = 'gradeNumber'
 const grade = localStorage.getItem(gradeStatKey)
-const nogradeyet = ['jack']
+const nogradeyet = ['Ryan']
 
 var GRADEWORDS = nogradeyet
 const EIGHTGRADE = [
@@ -332,4 +332,4 @@ if (grade == '"8"') {
 } else {
   var GRADEWORDS = nogradeyet
 }
-export const VALID_GUESSES = GRADEWORDS
+export const WORDS = GRADEWORDS
