@@ -12,48 +12,49 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Guess the Student. After each guess, the color of the tiles will change
         to show how close your guess was to the Student.
+        Studentle is now maintained and updated by Ryan
+        Originally created by Jack
+
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="J"
+          value="R"
           status="correct"
         />
+        <Cell value="Y" isCompleted={true} />
         <Cell value="A" isCompleted={true} />
-        <Cell value="C" isCompleted={true} />
+        <Cell value="N" isCompleted={true} />
+      </div>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        The letter R is in the Student's name and in the correct spot.
+      </p>
+
+      <div className="mb-1 mt-4 flex justify-center">
+        <Cell value="J" isCompleted={true} />
+        <Cell value="A" isCompleted={true} />
+        <Cell
+          isRevealing={true}
+          isCompleted={true}
+          value="C"
+          status="present"
+        />
         <Cell value="K" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter J is in the Student's name and in the correct spot.
+        The letter C is in the Student's name but in the wrong spot.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
-        <Cell value="G" isCompleted={true} />
-        <Cell value="E" isCompleted={true} />
-        <Cell
-          isRevealing={true}
-          isCompleted={true}
-          value="O"
-          status="present"
-        />
         <Cell value="R" isCompleted={true} />
-        <Cell value="G" isCompleted={true} />
-        <Cell value="E" isCompleted={true} />
+        <Cell value="Y" isCompleted={true} />
+        <Cell isRevealing={true} isCompleted={true} value="A" status="absent" />
+        <Cell value="N" isCompleted={true} />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter O is in the Student's name but in the wrong spot.
-      </p>
-
-      <div className="mb-1 mt-4 flex justify-center">
-        <Cell value="C" isCompleted={true} />
-        <Cell value="O" isCompleted={true} />
-        <Cell isRevealing={true} isCompleted={true} value="L" status="absent" />
-        <Cell value="T" isCompleted={true} />
-      </div>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        The letter L is not in the Student's name in any spot.
+        The letter A is not in the Student's name in any spot.
       </p>
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
