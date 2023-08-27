@@ -301,7 +301,7 @@ const SIXGRADE = [
 'Marlin',
 'Holman',
 'Harrison',
-'Davis'
+'Davis',
 ]
 
 if (grade == null) {
