@@ -59,7 +59,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
 
       <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
         Studentle V4 was forked from Studentle V3 an open source version of the student
-        guessing game we all know and love Origionally created by Jack -{' '}
+        guessing game we all know and love Origionally created by Jack
       </p>
     </BaseModal>
   )
