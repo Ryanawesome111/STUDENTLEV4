@@ -390,6 +390,7 @@ function App() {
             isHighContrastMode={isHighContrastMode}
             handleHighContrastMode={handleHighContrastMode}
           />
+<Analytics />
           <AlertContainer />
         </div>
       </div>
