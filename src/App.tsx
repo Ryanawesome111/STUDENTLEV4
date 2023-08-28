@@ -1,6 +1,6 @@
 import './App.css'
 
-import { Analytics } from '@vercel/analytics/react';
+
 import { ClockIcon } from '@heroicons/react/outline'
 import { format } from 'date-fns'
 import { default as GraphemeSplitter } from 'grapheme-splitter'
@@ -390,7 +390,6 @@ function App() {
             isHighContrastMode={isHighContrastMode}
             handleHighContrastMode={handleHighContrastMode}
           />
-<Analytics />
           <AlertContainer />
         </div>
       </div>
