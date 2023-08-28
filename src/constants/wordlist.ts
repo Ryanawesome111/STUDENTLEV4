@@ -314,20 +314,15 @@ const SIXGRADE = [
 
 if (grade == null) {
   var GRADEWORDS = nogradeyet
-}
-if (grade == '"69"') {
+} else if (grade == '"69"') {
   console.log('nah thats crazy ')
-}
-if (grade == '"25"') {
+} else if (grade == '"25"') {
   var GRADEWORDS = EIGHTGRADE
-}
-if (grade == '"7"') {
+} else if (grade == '"7"') {
   var GRADEWORDS = SEVENGRADE
-}
-if (grade == '"6"') {
+} else if (grade == '"6"') {
   var GRADEWORDS = SIXGRADE
-}
-if (grade == '"8"') {
+} else if (grade == '"8"') {
   var GRADEWORDS = EIGHTGRADE
 } else {
   var GRADEWORDS = nogradeyet
