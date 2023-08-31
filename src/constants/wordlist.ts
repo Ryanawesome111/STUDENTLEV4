@@ -94,7 +94,7 @@ const EIGHTGRADE = [
 'lucy',
 'turner',
 'joshua',
-'coleman',
+'Cole',
 'grant',
 'chase',
 'ava',
