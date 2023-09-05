@@ -112,6 +112,7 @@ const EIGHTGRADE = [
 ]
 
 const SEVENGRADE = [
+'xavier',
 'sophie',
 'ben',
 'graham',
