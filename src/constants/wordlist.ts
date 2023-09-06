@@ -10,7 +10,7 @@ const nogradeyet = ['Ryan']
 
 var GRADEWORDS = nogradeyet
 const EIGHTGRADE = [
-'ryan',
+'brody',
 'connor',
 'ashley',
 'xavier',
