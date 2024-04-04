@@ -13,7 +13,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         Guess the Student. After each guess, the color of the tiles will change
         to show how close your guess was to the Student.
         Studentle is now maintained and updated by Ryan
-        Originally created by Jack. If you would like to remove your name, or your name isn't there for example a "Student not found" error please contact me at support@ryanmbananas.tech
+        Originally created by Jack. If you would like to remove your name, or your name isn't there for example a "Student not found" error please contact me at ryan@ryanmbananas.com
 
       </p>
 
